@@ -1,0 +1,114 @@
+#mainListing {
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+#filter {
+    height: 321px;
+    width: 288px;
+    float: left;
+    border: 5px solid gray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+}
+
+:root {
+    --dark-grey: #4a4848;
+    --light-grey: #9e9e9e;
+    --nice-blue: #274390;
+}
+
+
+
+img {
+    width: 83%;
+}
+
+
+.section {
+    width: 75%;
+    height: 50vh;
+    /* margin-bottom: 63px; */
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.sec:hover {
+    box-shadow: 0 0 10px #a79f9f;
+    border: hidden;
+}
+
+.sec {
+    margin: 11px;
+    display: flex;
+    height: 48vh;
+    padding: 25px;
+    border: 1px solid var(--light-grey);
+    background-color: #fff;
+    border-radius: 31px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
+}
+
+.logo img {
+    border-radius: 20px;
+
+}
+
+.sec-2 {
+    margin-left: 25px;
+    padding-left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 151px;
+    margin-top: 51px;
+    border-left: 2px solid #fff;
+    flex-direction: column;
+    width: 112%;
+}
+
+.bt-1 {
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--dark-grey);
+    font-weight: 600;
+}
+
+/* Class Cuisine */
+.cuisine {
+    margin-left: 30%;
+    width: 80%;
+}
+
+/* Filter Section */
+.radio-button {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.filter h2,
+h3 {
+    color: var(--dark-grey);
+}
+
+.center {
+    text-align: center;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.logo {
+    width: 77%;
+    margin-top: 22px;
+}
